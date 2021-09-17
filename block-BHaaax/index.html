@@ -1,0 +1,44 @@
+<!-- 
+### Exercise 1
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+3. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image. -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Blog Page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div>
+                <img src="bee-icon.png" alt="bee-icon" class="icon">
+            </div>
+            <nav>
+                <a href="#">HOME</a>
+                <a href="#">SIGNUP</a>
+                <a href="#">COMMUNITY</a>
+                <a href="#">FEED</a>
+            </nav>
+        </header>
+        <main>
+            <article>
+                <div class="middle">
+                    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae explicabo ex nostrum dolore! Omnis accusamus id reprehenderit architecto expedita laborum recusandae nesciunt velit, ullam, saepe modi qui. Natus, quis enim?</p>
+                </div>
+                <div class="middle">
+                <img src="indiands.jpeg">
+                </div>
+            </article>
+        </main>
+        <footer>
+            <p>Footer</p>
+            <div class="footer"></div>
+        </footer>
+    </body>
+</html>
