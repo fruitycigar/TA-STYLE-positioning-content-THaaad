@@ -1,0 +1,161 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Custom styles */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+body {
+	line-height: 1.5;
+	font-size: 16px;
+}
+/* Container */
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 32px;
+}
+/* Header */
+.header {
+	background-color: hsl(213deg 47% 54%);
+	height: 100px;
+	line-height: 130px;
+}
+.theory {
+	float: left;
+}
+.theory a {
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+}
+.nav {
+	float: right;
+}
+.nav a {
+	color: white;
+	text-decoration: none;
+	margin-left: 32px;
+	font-size: 18px;
+	text-transform: capitalize;
+}
+.header-two {
+	background-color: hsl(213deg 47% 54%);
+	height: 370px;
+}
+.welcome {
+	padding: 100px;
+}
+.welcome h1 {
+	color: white;
+	text-align: center;
+	font-size: 58px;
+	font-weight: bold;
+}
+.welcome p {
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	font-weight: lighter;
+}
+/* Columns */
+.col {
+	float: left;
+	width: 33.33%;
+}
+.col h2 {
+	color: hsl(213deg 47% 54%);
+	line-height: 1.5;
+	font-size: 24px;
+	margin-bottom: 15px;
+	margin-top: 80px;
+}
+.col p {
+	color: grey;
+	line-height: 1.5;
+}
+.col button {
+	margin-top: 20px;
+	padding: 10px 10px;
+	background-color: hsl(213deg 47% 54%);
+	color: white;
+	border: none;
+	margin-bottom: 80px;
+}
+.articles {
+	background: white;
+	height: 400px;
+}
+/* User profiles */
+.gallery {
+	background:hsl(213deg 47% 54%);
+}
+.ipsum {
+	text-align: center;
+	color: white;
+}
+.ipsum h3 {
+	font-size: 58px;
+	padding-top: 80px;
+	text-align: center;
+}
+.ipsum p {
+	font-size: 15px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+.box {
+	float: left;
+	width: 20%;
+	margin: 1.5%;
+	height: 100px;
+	border-color: white;
+}
+.box img {
+	width: 100px;
+	height:100px;
+	object-fit: cover;
+	border-radius: 50%;
+}
